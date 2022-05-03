@@ -1,0 +1,81 @@
+.header{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.logo, .topright{
+    color: white;
+    margin-top: 20px;
+
+}
+
+.logo{
+    margin-left: 170px;
+}
+
+.topright{
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+    margin-right: 70px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 800;
+    max-width: 400px;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 100px;
+    padding-left: 170px;
+    margin-left: 250px;
+}
+
+.bluepart{
+    display: flex;
+    background-color: #1F2937;
+
+}
+
+img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 20px;
+    max-width:100%;
+    height: auto;
+    
+}
+
+.molediver{
+    display: flex;
+}
+
+.text{
+    max-width: 350px;
+}
+
+.button{
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    width: 100px;
+}
