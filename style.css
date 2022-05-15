@@ -62,8 +62,7 @@ ul{
 
     max-width: 100%;
     height: auto;
-    margin-right: 10px;
-    padding-top: 100px;
+    margin-left: 25px;
     
 }
 
@@ -73,7 +72,7 @@ ul{
 }
 
 .button{
-    margin-top: 20px;
+
     margin-bottom: 20px;
     padding: 8px 16px;
     border-radius: 8px;
@@ -101,18 +100,40 @@ ul{
 .moledivers img{
     width: 200px;
     height: 200px;
-    margin: 18px 0 10px 0px;
+    margin: 18px 5px 10px 5px;
     border-radius: 8px;
-    border: 4px solid red;
+    border: 4px solid #3882F6;
 }
 
 p{
     width: 190px;
     padding: 0;
-    margin: 0;
+
 }
 
 .molediver{
     display: flex;
     flex-direction: column;
+}
+
+.quotepart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+    width: 400px;
+    margin-right: 50px;
+}
+
+.molename{
+    margin-top: 100px;
+    margin-right: 50px;
 }
