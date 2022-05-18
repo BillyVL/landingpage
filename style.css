@@ -6,7 +6,7 @@
     justify-content: space-between;
 }
 
-.logo, .topright{
+.topright{
     color: white;
     margin-top: 20px;
 
@@ -16,7 +16,7 @@
     height: 100px;
     width: 100px;
     margin: 0;
-    margin-left: 15px;
+    margin-left: 7px;
 }
 
 .topright{
@@ -62,7 +62,7 @@ ul{
 
     max-width: 100%;
     height: auto;
-    margin-left: 25px;
+    margin-left: 30px;
     
 }
 
@@ -71,7 +71,7 @@ ul{
     max-width: 350px;
 }
 
-.button{
+.button, .button2{
 
     margin-bottom: 20px;
     padding: 8px 16px;
@@ -80,6 +80,13 @@ ul{
     border: 1px solid royalblue;
     color: white;
     width: 100px;
+}
+
+.button2{
+    border: 1px solid white;
+    margin-top: 35px;
+    margin-left: 75px;
+    height: 50px;
 }
 
 .text2{
@@ -136,4 +143,34 @@ p{
 .molename{
     margin-top: 100px;
     margin-right: 50px;
+}
+
+.bottompart{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.signupblock{
+    display: flex;
+    background-color: royalblue;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.actionblock{
+    display: flex;
+    flex-direction: column;
+}
+
+.action, .acttext{
+    font-family: 'Roboto', arial;
+    color: white;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
